@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1539599774250' stop='1539599780344'>
+    <name>Performing a Yahoo Search Performing a search operation</name>
+    <title>Performing a Yahoo Search Performing a search operation</title>
+    <test-cases>
+        <test-case start='1539599774254' status='failed' stop='1539599780316'>
+            <name>I am on the search page</name>
+            <title>I am on the search page</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1539599774493' status='passed' stop='1539599779165'>
+                    <name>POST /wd/hub/session/48beb4a7853e225a82557be5119eae89/url</name>
+                    <title>POST /wd/hub/session/48beb4a7853e225a82557be5119eae89/url</title>
+                    <attachments>
+                        <attachment title='Request' source='91199951-5468-41fd-9c53-e669fddabb78-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='8d9b364b-deef-4c35-b751-4e0454d73d3f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539599780267' status='passed' stop='1539599780284'>
+                    <name>GET /wd/hub/session/48beb4a7853e225a82557be5119eae89/title</name>
+                    <title>GET /wd/hub/session/48beb4a7853e225a82557be5119eae89/title</title>
+                    <attachments>
+                        <attachment title='Response' source='c0a45c50-137c-4834-b95b-7389819a8996-attachment.json' type='application/json' size='114'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'</message>
+                <stack-trace>AssertionError: expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'
+                    at World.&lt;anonymous> (/Users/devkhaira/github/AI-testing/test/stepDefinitions/given.js:11:31)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/devkhaira/github/AI-testing/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1539599780323' status='pending' stop='1539599780326'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1539599780330' status='pending' stop='1539599780333'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1539599780336' status='pending' stop='1539599780338'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

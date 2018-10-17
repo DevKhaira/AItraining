@@ -1,0 +1,9 @@
+{
+    "message": "stale element reference: element is not attached to the page document",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "StaleElementReference",
+        "message": "An element command failed because the referenced element is no longer attached to the DOM.",
+        "orgStatusMessage": "stale element reference: element is not attached to the page document\n  (Session info: chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.2 x86_64)"
+    }
+}

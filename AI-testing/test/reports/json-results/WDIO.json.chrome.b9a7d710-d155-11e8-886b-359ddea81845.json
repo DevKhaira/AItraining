@@ -1,0 +1,1 @@
+{"start":"2018-10-16T15:10:59.872Z","end":"2018-10-16T15:11:15.184Z","capabilities":{"browserName":"chrome","maxInstances":"1"},"host":"127.0.0.1","port":4444,"baseUrl":"http://kungfulondon.com","framework":"cucumber","mochaOpts":{"timeout":10000},"suites":[]}

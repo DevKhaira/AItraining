@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ai_test_on_my_kung_fu_page1" timestamp="2018-10-17T14:22:52" time="51.084" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="a00358ca9d47cf94032a5a4bc55d62fb"/>
+      <property name="suiteName" value="AI test on my kung fu page1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="check_bottom_of_page8" timestamp="2018-10-17T14:22:52" time="50.492" tests="5" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="a00358ca9d47cf94032a5a4bc55d62fb"/>
+      <property name="suiteName" value="Check bottom of page8"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Check bottom of page8" name="I am on the main page9" time="51.56"/>
+    <testcase classname="chrome.Check bottom of page8" name="I explore the page10" time="46.614"/>
+    <testcase classname="chrome.Check bottom of page8" name="I click the CTA button11" time="46.491"/>
+    <testcase classname="chrome.Check bottom of page8" name="I should be at the bottom of the page12" time="1.505">
+      <error message="&#xA;expected true to be false&#xA;"/>
+      <system-err>
+        <![CDATA[
+AssertionError: expected true to be false
+    at World.<anonymous> (/Users/devkhaira/github/AI-testing/test/stepDefinitions/then.js:6:5)
+    at new Promise (<anonymous>)
+    at new F (/Users/devkhaira/github/AI-testing/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Check bottom of page8" name="undefined" time="1.077"/>
+  </testsuite>
+</testsuites>

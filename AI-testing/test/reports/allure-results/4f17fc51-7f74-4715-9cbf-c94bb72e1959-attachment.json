@@ -1,0 +1,9 @@
+{
+    "message": "java.net.SocketException: Invalid argument",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "java.net.SocketException: Invalid argument"
+    }
+}

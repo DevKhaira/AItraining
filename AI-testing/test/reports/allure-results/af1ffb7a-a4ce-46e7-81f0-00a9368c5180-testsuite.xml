@@ -1,0 +1,280 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1539772243531' stop='1539772250512'>
+    <name>AI test on my kung fu page Check bottom of page</name>
+    <title>AI test on my kung fu page Check bottom of page</title>
+    <test-cases>
+        <test-case start='1539772243536' status='undefined'>
+            <name>undefined</name>
+            <title>undefined</title>
+            <labels>
+                <label name='feature' value='AI test on my kung fu page'/>
+                <label name='story' value='Check bottom of page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/kungFu.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1539772243550' status='passed' stop='1539772248940'>
+            <name>I am on the main page</name>
+            <title>I am on the main page</title>
+            <labels>
+                <label name='feature' value='AI test on my kung fu page'/>
+                <label name='story' value='Check bottom of page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/kungFu.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1539772243655' status='passed' stop='1539772248938'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/url</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/url</title>
+                    <attachments>
+                        <attachment title='Request' source='314c9190-37e4-485c-84ff-e0e70d71be7f-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='170c2a53-d59d-4078-8976-6638ec38a041-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1539772248940' status='passed' stop='1539772249316'>
+            <name>I explore the page</name>
+            <title>I explore the page</title>
+            <labels>
+                <label name='feature' value='AI test on my kung fu page'/>
+                <label name='story' value='Check bottom of page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/kungFu.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1539772248973' status='passed' stop='1539772248993'>
+                    <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/window/current/size</name>
+                    <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/window/current/size</title>
+                    <attachments>
+                        <attachment title='Response' source='de9d637d-b129-4b50-9a8e-061d40061e06-attachment.json' type='application/json' size='139'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772248996' status='passed' stop='1539772249057'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/execute</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='142628b7-6eeb-400f-87f8-b1f08ba14ff0-attachment.json' type='application/json' size='159'/>
+                        <attachment title='Response' source='c2a6ee78-0bcc-42b1-88a9-983608150a53-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772249058' status='passed' stop='1539772249316'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/execute</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='c208cac7-3cb2-44f0-b288-5d2d49ef3e40-attachment.json' type='application/json' size='160'/>
+                        <attachment title='Response' source='3314a20b-f5df-4b40-9b8d-7836cc76f6a0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1539772249316' status='passed' stop='1539772249978'>
+            <name>I click the CTA button</name>
+            <title>I click the CTA button</title>
+            <labels>
+                <label name='feature' value='AI test on my kung fu page'/>
+                <label name='story' value='Check bottom of page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/kungFu.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1539772249317' status='passed' stop='1539772249324'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/elements</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='974d2f5c-9e0b-4df3-9c28-9cac23b09657-attachment.json' type='application/json' size='110'/>
+                        <attachment title='Response' source='43ae8275-2efe-4282-a144-c3095c8c8dfd-attachment.json' type='application/json' size='501'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772249324' status='passed' stop='1539772249332'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/elements</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1d7df812-111a-45fc-90b6-2c4bca68b1c4-attachment.json' type='application/json' size='110'/>
+                        <attachment title='Response' source='6db9f339-eaf2-4a99-9f89-8f7ac9ea505b-attachment.json' type='application/json' size='501'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772249332' status='passed' stop='1539772249824'>
+                    <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-1/displayed</name>
+                    <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='d54ba610-1cbe-45fa-b022-73bc4c56f3de-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps>
+                        <step start='1539772249333' status='passed' stop='1539772249807'>
+                            <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-2/displayed</name>
+                            <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-2/displayed</title>
+                            <attachments>
+                                <attachment title='Response' source='1fe806c6-f50c-4cf1-a646-579a410869b5-attachment.json' type='application/json' size='92'/>
+                            </attachments>
+                            <steps>
+                                <step start='1539772249333' status='passed' stop='1539772249794'>
+                                    <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-3/displayed</name>
+                                    <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-3/displayed</title>
+                                    <attachments>
+                                        <attachment title='Response' source='1b930de6-0380-4eca-b60e-68156d9187d6-attachment.json' type='application/json' size='92'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1539772249335' status='passed' stop='1539772249771'>
+                                            <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-4/displayed</name>
+                                            <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-4/displayed</title>
+                                            <attachments>
+                                                <attachment title='Response' source='a5029f5d-bac2-40ac-ae1d-9adbfe53f61c-attachment.json' type='application/json' size='92'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1539772249377' status='passed' stop='1539772249680'>
+                                                    <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-5/displayed</name>
+                                                    <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-5/displayed</title>
+                                                    <attachments>
+                                                        <attachment title='Response' source='82f22b58-987b-4317-8a4d-c28fde968f1c-attachment.json' type='application/json' size='92'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1539772249387' status='passed' stop='1539772249674'>
+                                                            <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-6/displayed</name>
+                                                            <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-6/displayed</title>
+                                                            <attachments>
+                                                                <attachment title='Response' source='350ca5bb-a667-4fa9-9588-8a36c2d92932-attachment.json' type='application/json' size='92'/>
+                                                            </attachments>
+                                                            <steps/>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1539772249825' status='passed' stop='1539772249977'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-6/click</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='4a401829-c805-429e-ae43-415bf769fdab-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1539772249978' status='passed' stop='1539772250495'>
+            <name>I should be at the bottom of the page</name>
+            <title>I should be at the bottom of the page</title>
+            <labels>
+                <label name='feature' value='AI test on my kung fu page'/>
+                <label name='story' value='Check bottom of page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/kungFu.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1539772249979' status='passed' stop='1539772250042'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c3eab9fa-cb80-4e75-b0b2-625dd6b10f4c-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='303815a6-5737-49c6-8e72-625539e72ce9-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772250053' status='passed' stop='1539772250305'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/elements</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8ab6d9c1-9356-451c-811a-40209fd9e1e2-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='69c888eb-d887-4b28-9df3-1d2dbad8a3e0-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772250306' status='passed' stop='1539772250442'>
+                    <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-7/displayed</name>
+                    <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-7/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='ae264b78-1669-44ba-b6c7-05d5f20c9448-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772250443' status='passed' stop='1539772250472'>
+                    <name>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element</name>
+                    <title>POST /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22edaa47-5973-4077-a330-fba080f1c1f8-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='ec7404cd-19aa-4a34-92cf-0fb1d7a2a2f8-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539772250473' status='passed' stop='1539772250492'>
+                    <name>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-7/displayed</name>
+                    <title>GET /wd/hub/session/11e35b64d5a557ce7c79cb75cfe92686/element/0.16052238638446292-7/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='e72bd1b0-b6cf-4a10-a450-7256dc83e7a6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1539772250500' status='broken' stop='1539772250509'>
+            <name>After</name>
+            <title>After</title>
+            <labels>
+                <label name='feature' value='AI test on my kung fu page'/>
+                <label name='story' value='Check bottom of page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/devkhaira/github/AI-testing/test/features/kungFu.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Path must be a string. Received { route: 'scroll', scrollRoute: '', scrollValue: '0.5' }</message>
+                <stack-trace>TypeError: Path must be a string. Received { route: 'scroll', scrollRoute: '', scrollValue: '0.5' }
+                    at assertPath (path.js:28:11)
+                    at Object.join (path.js:1251:7)
+                    at learn (/Users/devkhaira/github/AI-testing/test/stepDefinitions/testHooks.js:8:50)
+                    at World.scenarioResult (/Users/devkhaira/github/AI-testing/test/stepDefinitions/testHooks.js:23:21)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/devkhaira/github/AI-testing/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

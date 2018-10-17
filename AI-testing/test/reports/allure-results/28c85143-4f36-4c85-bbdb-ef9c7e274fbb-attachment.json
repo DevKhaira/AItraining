@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//*[contains(text(), 'Start training with your free taster session')]"
+}

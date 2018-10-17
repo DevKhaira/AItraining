@@ -1,0 +1,9 @@
+{
+    "message": "unknown error: Location must be set before it can be retrieved",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "unknown error: Location must be set before it can be retrieved\n  (Session info: chrome=69.0.3497.100)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.2 x86_64)"
+    }
+}
