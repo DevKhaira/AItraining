@@ -17,7 +17,6 @@ function learn (testPath, route) {
 defineSupportCode( ({Before, After}) => {
 
     After({tags: '@learn'}, (scenarioResult) => {
-        console.log(scenarioResult.status);
         if (scenarioResult.status === 'failed') {
             learn( testPath, 'route');
             learn( scrollTestPath, 'scrollRoute');
